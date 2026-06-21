@@ -246,10 +246,10 @@ with st.sidebar:
 # ════════════════════════════════════════════════════════════════════════════
 if page == "Overview":
     st.markdown('<div class="main-title">Local Food Wastage <span>Management System</span></div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-title">Connecting Food Providers with Receivers — Reducing Waste, Fighting Hunger</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-title">Connecting Food Providers with Receivers — Reducing Waste</div>', unsafe_allow_html=True)
     st.markdown('<hr class="fancy-divider">', unsafe_allow_html=True)
 
-    st.markdown('<div class="sec-header">Key Metrics — All Data</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sec-header">Key Metrics</div>', unsafe_allow_html=True)
 
     total_listings_all = len(food)
     total_quantity_all  = food['Quantity'].sum()
@@ -303,7 +303,7 @@ if page == "Overview":
         show_fig(fig, 50)
         top_pt = pt.idxmax()
         pct_share = round(pt.max()/pt.sum()*100,1)
-        st.markdown(f'<div class="insight-box">{top_pt} contributes the highest food quantity, making up <b>{pct_share}%</b> of all donated food in the current filter. This shows {top_pt}s are the most valuable type of partner in this system right now. Strengthening relationships with more {top_pt}s — for example through regular pickup schedules or recognition programs — would create the biggest improvement in total food collected and redistributed.</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="insight-box">{top_pt} contributes the highest food quantity, making up <b>{pct_share}%</b> of all donated food in the current filter. This shows {top_pt}s are the most valuable type of partner in this system right now. Strengthening relationships with more {top_pt}s for example through regular pickup schedules or recognition programs would create the biggest improvement in total food collected and redistributed.</div>', unsafe_allow_html=True)
     else:
         st.info("No data matches the current filter selection. Try removing one or more filters above.")
 
@@ -330,7 +330,7 @@ if page == "Overview":
         plt.tight_layout()
         show_fig(fig, 50)
         top_mt = mt.idxmax()
-        st.markdown(f'<div class="insight-box"><b>{top_mt}</b> has the highest total quantity of food listed among all meal types. This typically happens because providers tend to have more surplus during this meal period. If claim rates for {top_mt} are lower than other meal types, this becomes the single biggest source of preventable food waste — so outreach campaigns timed around {top_mt} collection windows could meaningfully reduce wastage.</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="insight-box"><b>{top_mt}</b> has the highest total quantity of food listed among all meal types. This typically happens because providers tend to have more surplus during this meal period. If claim rates for {top_mt} are lower than other meal types, this becomes the single biggest source of preventable food waste so outreach campaigns timed around {top_mt} collection windows could meaningfully reduce wastage.</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="sec-header">Claim Status Distribution</div>', unsafe_allow_html=True)
     cs = filtered_claims['Status'].value_counts()
@@ -345,7 +345,7 @@ if page == "Overview":
         comp_pct = round(cs.get('Completed',0)/cs.sum()*100,1)
         canc_pct = round(cs.get('Cancelled',0)/cs.sum()*100,1)
         pend_pct = round(cs.get('Pending',0)/cs.sum()*100,1)
-        st.markdown(f'<div class="insight-box">Out of all claims in the current filter, only <b>{comp_pct}%</b> are actually completed. <b>{canc_pct}%</b> get cancelled and <b>{pend_pct}%</b> are still pending. This means a majority of claimed food may never actually reach the receiver — the food gets reserved but then falls through due to logistics, timing, or communication issues. This is the single biggest leakage point in the entire food distribution pipeline and should be the top priority to fix.</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="insight-box">Out of all claims in the current filter, only <b>{comp_pct}%</b> are actually completed. <b>{canc_pct}%</b> get cancelled and <b>{pend_pct}%</b> are still pending. This means a majority of claimed food may never actually reach the receiver the food gets reserved but then falls through due to logistics, timing, or communication issues. This is the single biggest leakage point in the entire food distribution pipeline and should be the top priority to fix.</div>', unsafe_allow_html=True)
 
         cc1, cc2, cc3 = st.columns(3)
         with cc1:
@@ -366,7 +366,6 @@ if page == "Overview":
 # ════════════════════════════════════════════════════════════════════════════
 elif page == "Query Analysis":
     st.markdown('<div class="main-title">SQL Query <span>Results</span></div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-title">18 SQL queries executed on MySQL — food_wastage_db</div>', unsafe_allow_html=True)
     st.markdown('<hr class="fancy-divider">', unsafe_allow_html=True)
 
     QUERY_META = {
@@ -423,7 +422,6 @@ elif page == "Query Analysis":
 # ════════════════════════════════════════════════════════════════════════════
 elif page == "Visualizations":
     st.markdown('<div class="main-title">Exploratory <span>Data Analysis</span></div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-title">16 charts — Univariate, Bivariate, Multivariate and Claim Analysis</div>', unsafe_allow_html=True)
     st.markdown('<hr class="fancy-divider">', unsafe_allow_html=True)
 
     CHART_DIR = "data/eda_charts"
@@ -431,9 +429,9 @@ elif page == "Visualizations":
     SECTIONS = {
         "Univariate Analysis": [
             ("U1_provider_type_distribution",  "Provider Type Distribution", 60,
-             "All four provider categories — Restaurant, Supermarket, Grocery Store, and Catering Service — appear in roughly equal numbers. This even spread means the system isn't fragile to losing any single type of provider, since no one category is carrying a disproportionate share of total participation."),
+             "All four provider categories — Restaurant, Supermarket, Grocery Store, and Catering Service appear in roughly equal numbers. This even spread means the system isn't fragile to losing any single type of provider, since no one category is carrying a disproportionate share of total participation."),
             ("U2_receiver_type_distribution",  "Receiver Type Distribution", 38,
-             "Receivers are distributed across NGOs, Shelters, Individuals, and Charities fairly evenly. This diversity is healthy because it means the platform serves multiple kinds of need at once — emergency shelters, ongoing charity work, and direct individual hunger relief — rather than over-serving just one group."),
+             "Receivers are distributed across NGOs, Shelters, Individuals, and Charities fairly evenly. This diversity is healthy because it means the platform serves multiple kinds of need at once  emergency shelters, ongoing charity work, and direct individual hunger relief rather than over-serving just one group."),
             ("U3_food_type_distribution",      "Food Type Distribution", 60,
              "Vegetarian, Non-Vegetarian, and Vegan listings are close in number, with no single category overwhelmingly dominant. This balance matters because it means receivers with specific dietary restrictions are not systematically underserved compared to others."),
             ("U4_meal_type_distribution",      "Meal Type Distribution", 60,
@@ -451,11 +449,11 @@ elif page == "Visualizations":
         ],
         "Multivariate Analysis": [
             ("M1_city_provider_type_quantity", "City + Provider Type + Quantity", 90,
-             "Most top-performing cities have multiple provider types active simultaneously rather than relying on just one. Cities that show only a single dominant provider type are more vulnerable — if that one provider type pulls back, the city's entire food supply could collapse rather than just shrink."),
+             "Most top-performing cities have multiple provider types active simultaneously rather than relying on just one. Cities that show only a single dominant provider type are more vulnerable if that one provider type pulls back, the city's entire food supply could collapse rather than just shrink."),
             ("M2_food_type_meal_type_quantity","Food Type + Meal Type + Quantity", 80,
-             "Specific combinations stand out — for instance Non-Vegetarian food tends to peak for Dinner while Vegan food appears more for Breakfast. Receivers can use this pattern to plan exactly when to check listings depending on what dietary type of food they need most."),
+             "Specific combinations stand out for instance Non-Vegetarian food tends to peak for Dinner while Vegan food appears more for Breakfast. Receivers can use this pattern to plan exactly when to check listings depending on what dietary type of food they need most."),
             ("M3_provider_claims_quantity",    "Provider Type + Claim Status", 80,
-             "Across all provider types, the ratio of completed versus cancelled claims stays fairly consistent. This tells us the high cancellation problem is not isolated to any specific provider category — it's a system-wide logistics or communication issue that needs a platform-level fix, not a provider-specific one."),
+             "Across all provider types, the ratio of completed versus cancelled claims stays fairly consistent. This tells us the high cancellation problem is not isolated to any specific provider category it's a system-wide logistics or communication issue that needs a platform-level fix, not a provider-specific one."),
             ("M4_receiver_claims_quantity",    "Receiver Type + Claim Status", 80,
              "Organized receiver types like NGOs and Shelters tend to complete claims more reliably than Individuals. This suggests that routing larger or time-sensitive food listings toward organizational receivers first, before opening them to individuals, could reduce the overall cancellation rate."),
         ],
@@ -607,7 +605,6 @@ elif page == "Provider and Receiver Directory":
 # ════════════════════════════════════════════════════════════════════════════
 elif page == "Insights & Recommendations":
     st.markdown('<div class="main-title">Insights & <span>Recommendations</span></div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-title">What the data shows, and what should be done about it</div>', unsafe_allow_html=True)
     st.markdown('<hr class="fancy-divider">', unsafe_allow_html=True)
 
     top_city      = food.groupby('Location')['Quantity'].sum().idxmax()
