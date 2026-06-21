@@ -1,0 +1,11 @@
+Food_Name,Food_Type,Meal_Type,Total_Claims
+Salad,Vegetarian,Breakfast,20
+Fish,Vegetarian,Breakfast,17
+Rice,Non-Vegetarian,Snacks,16
+Fish,Vegan,Snacks,15
+Soup,Vegan,Lunch,15
+Rice,Vegetarian,Dinner,15
+Bread,Vegetarian,Breakfast,15
+Dairy,Non-Vegetarian,Lunch,14
+Fish,Non-Vegetarian,Breakfast,14
+Rice,Vegan,Breakfast,14

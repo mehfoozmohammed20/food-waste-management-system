@@ -1,0 +1,16 @@
+Food_ID,Food_Name,Food_Type,Meal_Type,Total_Claims
+548,Fish,Vegan,Snacks,5
+463,Soup,Vegan,Lunch,5
+486,Chicken,Vegan,Snacks,5
+217,Soup,Vegetarian,Lunch,4
+882,Salad,Vegan,Lunch,4
+797,Dairy,Vegan,Breakfast,4
+832,Fish,Non-Vegetarian,Breakfast,4
+92,Chicken,Vegetarian,Breakfast,4
+251,Dairy,Non-Vegetarian,Lunch,4
+674,Vegetables,Vegetarian,Lunch,4
+861,Dairy,Non-Vegetarian,Dinner,4
+696,Rice,Non-Vegetarian,Snacks,4
+190,Salad,Non-Vegetarian,Snacks,4
+35,Rice,Vegan,Breakfast,4
+520,Fish,Non-Vegetarian,Breakfast,4

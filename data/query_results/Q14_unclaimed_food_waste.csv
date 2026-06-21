@@ -1,0 +1,21 @@
+Food_ID,Food_Name,Quantity,Expiry_Date,Food_Type,Meal_Type,Provider_Name,City
+42,Rice,50,2025-03-16,Vegan,Lunch,"Lucas, Bush and Miller",North Michelle
+124,Salad,50,2025-03-19,Vegetarian,Snacks,"Gibbs, Green and Krause",Sheilaburgh
+198,Bread,50,2025-03-23,Vegetarian,Breakfast,Carr-Wells,Jefferyside
+653,Soup,50,2025-03-25,Non-Vegetarian,Breakfast,Nelson Ltd,New Thomasmouth
+815,Pasta,50,2025-03-22,Vegan,Snacks,"Rodriguez, Walker and Singleton",Bairdfort
+872,Vegetables,50,2025-03-29,Vegetarian,Snacks,Shepherd and Sons,Pamelaberg
+948,Fruits,50,2025-03-29,Vegan,Breakfast,Glass Inc,Kylehaven
+8,Rice,49,2025-03-28,Vegetarian,Lunch,"Harris, Perez and Willis",South Christopherborough
+60,Pasta,49,2025-03-28,Non-Vegetarian,Breakfast,Wu LLC,Hawkinsmouth
+93,Salad,49,2025-03-20,Vegetarian,Lunch,Holland and Sons,New Richard
+170,Fruits,49,2025-03-17,Vegan,Breakfast,Bradley-Smith,Jeremiahfort
+264,Bread,49,2025-03-24,Vegetarian,Dinner,Nelson-White,North Douglasfurt
+513,Fruits,49,2025-03-18,Vegetarian,Snacks,"Chapman, Barrett and Lopez",Crystalborough
+631,Pasta,49,2025-03-30,Non-Vegetarian,Dinner,"Snyder, Caldwell and Campbell",Muellermouth
+38,Bread,48,2025-03-22,Vegetarian,Snacks,Martinez-Graham,Elliottberg
+127,Rice,48,2025-03-30,Vegan,Snacks,Manning Ltd,Josephburgh
+186,Pasta,48,2025-03-17,Vegetarian,Breakfast,"Evans, Wright and Mitchell",North Keith
+288,Bread,48,2025-03-22,Vegetarian,Breakfast,Pierce Group,Lake Jamestown
+341,Vegetables,48,2025-03-30,Non-Vegetarian,Dinner,Martinez-Young,East Phillipton
+383,Vegetables,48,2025-03-19,Vegan,Lunch,Cooper LLC,Port Melanie

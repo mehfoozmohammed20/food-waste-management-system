@@ -1,0 +1,13 @@
+Food_Type,Meal_Type,Avg_Quantity,Total_Quantity
+Non-Vegetarian,Breakfast,26.24,2152.0
+Non-Vegetarian,Dinner,25.71,1954.0
+Non-Vegetarian,Lunch,25.93,2230.0
+Non-Vegetarian,Snacks,26.98,2320.0
+Vegan,Breakfast,29.45,2268.0
+Vegan,Dinner,23.0,1702.0
+Vegan,Lunch,27.53,2340.0
+Vegan,Snacks,25.39,2488.0
+Vegetarian,Breakfast,23.65,2247.0
+Vegetarian,Dinner,25.32,2405.0
+Vegetarian,Lunch,23.42,1803.0
+Vegetarian,Snacks,27.32,1885.0

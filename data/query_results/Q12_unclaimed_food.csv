@@ -1,0 +1,354 @@
+Food_ID,Food_Name,Quantity,Expiry_Date,Food_Type,Meal_Type,Provider_Name,City
+4,Fruits,15,2025-03-16,Vegan,Lunch,Cannon-Garcia,Kellytown
+42,Rice,50,2025-03-16,Vegan,Lunch,"Lucas, Bush and Miller",North Michelle
+48,Rice,30,2025-03-16,Vegan,Breakfast,"Powers, Clark and Snyder",North Jamesberg
+53,Fruits,13,2025-03-16,Vegetarian,Lunch,"Gillespie, Foster and Boyd",North Carolfurt
+76,Pasta,40,2025-03-16,Vegan,Lunch,Ayers LLC,North Kennethshire
+140,Chicken,18,2025-03-16,Vegan,Dinner,Miller Inc,Coleburgh
+361,Dairy,17,2025-03-16,Vegetarian,Breakfast,Lambert Ltd,South Jerryside
+368,Salad,1,2025-03-16,Non-Vegetarian,Lunch,"Rogers, Harmon and Gordon",Lake Karenfurt
+369,Fruits,23,2025-03-16,Vegan,Breakfast,"Roberts, Howard and Bender",Lake Lorrainefort
+370,Fruits,35,2025-03-16,Vegan,Lunch,Cooper LLC,Port Melanie
+428,Dairy,35,2025-03-16,Vegetarian,Snacks,Aguilar-Frederick,Michaelport
+439,Fruits,41,2025-03-16,Vegan,Dinner,"Wilson, Harris and Mayo",Port David
+628,Fish,5,2025-03-16,Non-Vegetarian,Snacks,Todd Group,Port Patrick
+737,Fish,3,2025-03-16,Non-Vegetarian,Snacks,Cannon-Garcia,Kellytown
+774,Dairy,2,2025-03-16,Vegan,Breakfast,Russell and Sons,New Michaelmouth
+785,Bread,10,2025-03-16,Non-Vegetarian,Lunch,Ruiz-Oneal,Lake Travis
+871,Chicken,7,2025-03-16,Non-Vegetarian,Lunch,Mendoza-Espinoza,South William
+889,Soup,21,2025-03-16,Vegan,Snacks,Thomas-Carpenter,Port Ronaldshire
+907,Chicken,17,2025-03-16,Vegan,Lunch,Olson Ltd,Katherinefurt
+941,Fish,1,2025-03-16,Vegan,Lunch,"Martinez, Armstrong and Carroll",East Lisa
+963,Fish,33,2025-03-16,Vegan,Dinner,"Stewart, Cox and Tate",East Kimberly
+20,Pasta,41,2025-03-17,Non-Vegetarian,Snacks,"Evans, Wright and Mitchell",North Keith
+54,Soup,15,2025-03-17,Non-Vegetarian,Snacks,Smith-Villegas,North Lindseychester
+57,Chicken,23,2025-03-17,Vegan,Dinner,Anderson and Sons,South Jessicachester
+170,Fruits,49,2025-03-17,Vegan,Breakfast,Bradley-Smith,Jeremiahfort
+186,Pasta,48,2025-03-17,Vegetarian,Breakfast,"Evans, Wright and Mitchell",North Keith
+192,Vegetables,5,2025-03-17,Vegan,Snacks,Shah Group,Lake Jeffreytown
+289,Vegetables,31,2025-03-17,Non-Vegetarian,Breakfast,"White, Crawford and Pearson",Frederickside
+429,Pasta,34,2025-03-17,Non-Vegetarian,Lunch,Mcbride-Rogers,Scottchester
+432,Dairy,34,2025-03-17,Non-Vegetarian,Breakfast,Gray PLC,West Hunter
+449,Dairy,21,2025-03-17,Vegetarian,Dinner,Smith Group,Jimmyberg
+470,Salad,38,2025-03-17,Vegan,Dinner,"Davies, Salas and Clark",Port Leahfurt
+478,Soup,43,2025-03-17,Vegetarian,Lunch,Larson and Sons,Zimmermanton
+533,Fruits,25,2025-03-17,Vegetarian,Breakfast,Hammond LLC,New Carol
+537,Salad,9,2025-03-17,Vegetarian,Breakfast,"Jackson, Howe and Gentry",Lake Deborah
+566,Fish,8,2025-03-17,Vegan,Lunch,"Walker, Brennan and Townsend",Port Rubenville
+646,Fruits,44,2025-03-17,Vegetarian,Breakfast,"Glover, Wilson and Hudson",East Ashleyshire
+700,Dairy,10,2025-03-17,Vegan,Breakfast,Farmer Ltd,Cisnerostown
+711,Pasta,25,2025-03-17,Vegan,Breakfast,"Oliver, Ross and Johnson",Davidville
+752,Soup,12,2025-03-17,Vegan,Breakfast,"Gutierrez, Anthony and Shannon",Lake Justin
+780,Dairy,48,2025-03-17,Vegan,Snacks,"Moore, Perez and Young",Penabury
+814,Bread,18,2025-03-17,Vegan,Snacks,Carr-Wells,Jefferyside
+816,Fruits,2,2025-03-17,Vegetarian,Lunch,Oconnor Ltd,Port Bryce
+857,Pasta,47,2025-03-17,Vegetarian,Dinner,King-Snyder,Reyesshire
+860,Fish,37,2025-03-17,Vegetarian,Lunch,Nelson and Sons,Steveport
+874,Bread,45,2025-03-17,Non-Vegetarian,Snacks,Smith Group,Jimmyberg
+881,Dairy,43,2025-03-17,Vegetarian,Lunch,Smith Group,Jimmyberg
+944,Vegetables,41,2025-03-17,Vegan,Breakfast,"Stewart, Rocha and Torres",Williamland
+974,Chicken,45,2025-03-17,Non-Vegetarian,Lunch,Steele Ltd,Heatherview
+182,Soup,29,2025-03-18,Vegan,Breakfast,Shepherd-Yates,Port Aaron
+219,Fish,26,2025-03-18,Vegetarian,Snacks,Peters-Johnson,Jasmineberg
+303,Fish,2,2025-03-18,Vegan,Dinner,Young-Wu,Tamaraside
+311,Fish,3,2025-03-18,Vegan,Dinner,Cunningham Ltd,Port Marissachester
+360,Chicken,12,2025-03-18,Vegan,Dinner,Miller-Carter,Port Lisamouth
+442,Fish,20,2025-03-18,Non-Vegetarian,Lunch,Ayers LLC,North Kennethshire
+445,Pasta,13,2025-03-18,Vegan,Lunch,Moore Group,Manningshire
+451,Fish,14,2025-03-18,Vegan,Breakfast,Bell-Newman,Smithmouth
+477,Dairy,40,2025-03-18,Vegan,Breakfast,Bradford-Martinez,New Carol
+513,Fruits,49,2025-03-18,Vegetarian,Snacks,"Chapman, Barrett and Lopez",Crystalborough
+575,Pasta,15,2025-03-18,Non-Vegetarian,Breakfast,"Oliver, Williams and Rich",Salastown
+617,Soup,27,2025-03-18,Vegetarian,Lunch,Rojas-Cook,Lake Diane
+618,Soup,9,2025-03-18,Non-Vegetarian,Dinner,Allen LLC,Lake Richardhaven
+712,Pasta,31,2025-03-18,Non-Vegetarian,Dinner,"Lutz, Smith and Martin",Chambersfort
+724,Dairy,44,2025-03-18,Vegetarian,Lunch,Brown Ltd,Castilloport
+745,Fruits,34,2025-03-18,Vegan,Breakfast,"Davis, Sanchez and Mendez",New Amanda
+759,Chicken,36,2025-03-18,Non-Vegetarian,Snacks,Maynard LLC,New Bobbytown
+834,Pasta,43,2025-03-18,Vegetarian,Dinner,Miller Ltd,North Kylestad
+5,Soup,14,2025-03-19,Vegan,Dinner,"Greene, Wood and Hernandez",Garciaport
+77,Rice,4,2025-03-19,Vegetarian,Lunch,"Simpson, Mcguire and Brown",Pereztown
+102,Rice,35,2025-03-19,Vegetarian,Snacks,Sanders-Hale,Moralesside
+124,Salad,50,2025-03-19,Vegetarian,Snacks,"Gibbs, Green and Krause",Sheilaburgh
+296,Dairy,24,2025-03-19,Vegan,Lunch,Smith Group,Jimmyberg
+328,Chicken,36,2025-03-19,Vegetarian,Snacks,Rosario-Porter,Brookeland
+383,Vegetables,48,2025-03-19,Vegan,Lunch,Cooper LLC,Port Melanie
+392,Soup,34,2025-03-19,Vegan,Dinner,Gomez LLC,Carlborough
+595,Salad,42,2025-03-19,Vegan,Lunch,Cole-Ochoa,South Crystalberg
+846,Salad,34,2025-03-19,Vegan,Snacks,Fowler-Morgan,Cannonside
+975,Fish,48,2025-03-19,Non-Vegetarian,Lunch,Coleman-Farley,Valentineside
+976,Vegetables,41,2025-03-19,Non-Vegetarian,Lunch,Combs Ltd,West Kelli
+982,Soup,36,2025-03-19,Vegetarian,Breakfast,Ortiz-Lee,Lake Christopherburgh
+1000,Salad,18,2025-03-19,Non-Vegetarian,Dinner,Bennett-Parker,Charlesview
+10,Rice,41,2025-03-20,Vegan,Dinner,Baird PLC,Markport
+93,Salad,49,2025-03-20,Vegetarian,Lunch,Holland and Sons,New Richard
+122,Fruits,7,2025-03-20,Vegan,Snacks,Miller Inc,South Thomasville
+139,Rice,3,2025-03-20,Vegetarian,Dinner,Nichols-Barnes,Port Richardshire
+155,Fruits,20,2025-03-20,Vegan,Dinner,Cole LLC,North Destiny
+169,Fruits,18,2025-03-20,Vegan,Snacks,Mckinney LLC,East Sandra
+212,Salad,33,2025-03-20,Non-Vegetarian,Dinner,Stewart-Soto,Andrewsmouth
+222,Vegetables,23,2025-03-20,Non-Vegetarian,Breakfast,"Herrera, Fritz and Banks",Port Heidiland
+333,Salad,41,2025-03-20,Non-Vegetarian,Breakfast,Johnson-Ray,Port Connie
+422,Soup,2,2025-03-20,Non-Vegetarian,Breakfast,"Phelps, Graham and Hayes",Timothychester
+431,Pasta,21,2025-03-20,Non-Vegetarian,Lunch,"Johnson, Harris and White",Bellport
+472,Salad,21,2025-03-20,Non-Vegetarian,Snacks,"Barry, Powers and White",Murrayborough
+561,Pasta,47,2025-03-20,Non-Vegetarian,Lunch,"Rogers, Robbins and Cook",Lake Kendramouth
+581,Salad,8,2025-03-20,Vegetarian,Breakfast,Henry PLC,South Tiffanyfort
+607,Vegetables,23,2025-03-20,Vegetarian,Dinner,"Reyes, Houston and Esparza",Brittanyland
+613,Bread,42,2025-03-20,Vegetarian,Dinner,Chan PLC,North Brendaborough
+620,Chicken,7,2025-03-20,Vegetarian,Dinner,Sparks-Berry,Chelseyfort
+709,Chicken,15,2025-03-20,Vegetarian,Breakfast,Vasquez LLC,Jasonland
+719,Pasta,44,2025-03-20,Vegan,Snacks,Pearson-Barry,Browntown
+773,Fish,40,2025-03-20,Vegetarian,Dinner,Roth-Mathews,Cordovaborough
+783,Rice,4,2025-03-20,Vegetarian,Snacks,Rios Group,Madisonfort
+845,Bread,14,2025-03-20,Non-Vegetarian,Dinner,Livingston Inc,Port Victoria
+863,Fruits,30,2025-03-20,Vegan,Breakfast,Cook Group,Port Robin
+869,Fish,27,2025-03-20,Vegan,Snacks,Robinson PLC,Jennifertown
+876,Salad,38,2025-03-20,Vegan,Snacks,Frazier LLC,North Susan
+32,Rice,27,2025-03-21,Non-Vegetarian,Lunch,Williams-Manning,Port Kendraborough
+62,Rice,21,2025-03-21,Non-Vegetarian,Breakfast,"Jackson, Miller and Porter",Port Andre
+117,Soup,32,2025-03-21,Non-Vegetarian,Snacks,"Spencer, Eaton and Young",Johnstonhaven
+235,Dairy,38,2025-03-21,Vegan,Lunch,"Peters, Chase and Davis",North Brentbury
+242,Soup,17,2025-03-21,Vegan,Dinner,Smith Group,Jimmyberg
+248,Vegetables,32,2025-03-21,Non-Vegetarian,Lunch,"Jackson, Shelton and Mayer",Port Lance
+350,Pasta,8,2025-03-21,Non-Vegetarian,Breakfast,Campbell LLC,Torresshire
+394,Fruits,30,2025-03-21,Vegetarian,Dinner,Baker-Mcdonald,East Andrea
+414,Vegetables,7,2025-03-21,Non-Vegetarian,Snacks,Rose-Pearson,North Aaron
+440,Pasta,34,2025-03-21,Vegan,Lunch,Blankenship-Lewis,Jonathanstad
+552,Dairy,44,2025-03-21,Vegetarian,Dinner,Hogan-Johnston,Gardnerfort
+587,Fruits,22,2025-03-21,Non-Vegetarian,Dinner,"Hunter, Ballard and Caldwell",Leslieville
+621,Soup,23,2025-03-21,Non-Vegetarian,Lunch,Gray PLC,West Hunter
+638,Rice,12,2025-03-21,Non-Vegetarian,Dinner,Glass Inc,Kylehaven
+645,Soup,34,2025-03-21,Vegetarian,Breakfast,Dixon LLC,North Ebony
+666,Vegetables,47,2025-03-21,Non-Vegetarian,Dinner,Smith-Paul,Thorntonbury
+667,Soup,30,2025-03-21,Vegetarian,Lunch,"Davis, Sanchez and Mendez",New Amanda
+842,Bread,40,2025-03-21,Vegan,Breakfast,Thompson Group,Carlbury
+847,Pasta,29,2025-03-21,Vegan,Dinner,Preston-Smith,Strongmouth
+867,Soup,1,2025-03-21,Vegetarian,Snacks,Mcgee PLC,New Hollyfurt
+887,Soup,12,2025-03-21,Vegetarian,Lunch,"Smith, Lynch and Anderson",South Bryan
+15,Salad,3,2025-03-22,Vegetarian,Breakfast,Johnston Ltd,Belindaville
+38,Bread,48,2025-03-22,Vegetarian,Snacks,Martinez-Graham,Elliottberg
+44,Bread,39,2025-03-22,Vegan,Snacks,"Webb, Phillips and Garcia",Bradleyport
+91,Vegetables,9,2025-03-22,Vegetarian,Breakfast,"Floyd, Jones and Alvarado",Brittanyport
+171,Salad,25,2025-03-22,Vegetarian,Snacks,Russell-Summers,Port Michaelshire
+177,Dairy,22,2025-03-22,Vegan,Breakfast,Johnson-Mejia,Port Michael
+288,Bread,48,2025-03-22,Vegetarian,Breakfast,Pierce Group,Lake Jamestown
+306,Salad,27,2025-03-22,Non-Vegetarian,Snacks,Cruz Inc,North Julieburgh
+454,Pasta,4,2025-03-22,Vegetarian,Lunch,Blackwell Ltd,Brianside
+484,Bread,15,2025-03-22,Vegan,Snacks,Baker LLC,South Michaelberg
+539,Vegetables,14,2025-03-22,Vegetarian,Breakfast,Campbell LLC,Perezport
+688,Salad,6,2025-03-22,Vegan,Snacks,Johnson-Farley,South Donald
+698,Rice,16,2025-03-22,Non-Vegetarian,Lunch,Calderon-Torres,Ramosville
+706,Dairy,45,2025-03-22,Non-Vegetarian,Dinner,Hughes-Jackson,East Lindsayville
+710,Chicken,41,2025-03-22,Non-Vegetarian,Lunch,"Lewis, Preston and Price",Jeffreybury
+726,Soup,27,2025-03-22,Vegetarian,Breakfast,Graham PLC,East Cynthia
+802,Soup,25,2025-03-22,Non-Vegetarian,Dinner,"Mitchell, Campbell and Jones",Marymouth
+815,Pasta,50,2025-03-22,Vegan,Snacks,"Rodriguez, Walker and Singleton",Bairdfort
+831,Pasta,24,2025-03-22,Non-Vegetarian,Breakfast,Holloway-Koch,Jamesport
+858,Fruits,13,2025-03-22,Non-Vegetarian,Snacks,"Davis, Bowen and Miller",North Mike
+868,Soup,4,2025-03-22,Non-Vegetarian,Snacks,Small Ltd,Gaineschester
+885,Rice,44,2025-03-22,Vegan,Lunch,Abbott-Robinson,Joseville
+957,Fish,39,2025-03-22,Vegan,Lunch,"Hall, Nguyen and Martinez",West Cherylfort
+983,Fruits,43,2025-03-22,Vegetarian,Lunch,Hogan-Johnston,Gardnerfort
+27,Salad,12,2025-03-23,Vegan,Breakfast,Bradford-Martinez,New Carol
+82,Vegetables,26,2025-03-23,Non-Vegetarian,Snacks,"Mueller, Savage and Hudson",North Kevinhaven
+198,Bread,50,2025-03-23,Vegetarian,Breakfast,Carr-Wells,Jefferyside
+266,Soup,30,2025-03-23,Vegetarian,Lunch,"Boyd, Padilla and Simpson",Morganhaven
+314,Fish,27,2025-03-23,Vegetarian,Lunch,Barrera-Ward,West Juliabury
+336,Dairy,36,2025-03-23,Non-Vegetarian,Snacks,Chambers-Waters,East Angelafort
+344,Vegetables,44,2025-03-23,Vegan,Snacks,Ruiz-Oneal,Lake Travis
+357,Chicken,1,2025-03-23,Vegan,Dinner,Reyes and Sons,New Monicaside
+363,Bread,24,2025-03-23,Non-Vegetarian,Breakfast,Schneider-Suarez,East Melissa
+434,Vegetables,20,2025-03-23,Non-Vegetarian,Snacks,"Gutierrez, Anthony and Shannon",Lake Justin
+450,Bread,9,2025-03-23,Non-Vegetarian,Dinner,Smith-Villegas,North Lindseychester
+452,Vegetables,47,2025-03-23,Vegan,Dinner,"Burke, Yates and Hicks",Madelinechester
+516,Fish,24,2025-03-23,Non-Vegetarian,Breakfast,Miller Inc,South Thomasville
+527,Dairy,3,2025-03-23,Non-Vegetarian,Snacks,Reid-Johnson,Anthonyhaven
+547,Chicken,26,2025-03-23,Vegan,Snacks,"Smith, Lynch and Anderson",South Bryan
+549,Rice,34,2025-03-23,Non-Vegetarian,Breakfast,"Mueller, Savage and Hudson",North Kevinhaven
+583,Vegetables,44,2025-03-23,Non-Vegetarian,Dinner,Barker LLC,Hollyhaven
+605,Vegetables,20,2025-03-23,Vegetarian,Dinner,"Olson, Johnson and Figueroa",Lake Benjamin
+772,Salad,37,2025-03-23,Vegan,Lunch,Torres-Dunlap,South Christopherborough
+781,Bread,45,2025-03-23,Vegan,Snacks,"Miranda, Wilcox and Short",Janetborough
+808,Dairy,7,2025-03-23,Vegetarian,Dinner,"West, Martinez and Warren",Rodriguezview
+827,Salad,3,2025-03-23,Vegan,Snacks,Sanchez PLC,South Marthahaven
+856,Rice,44,2025-03-23,Vegetarian,Snacks,Davis-Kennedy,Jordanhaven
+883,Bread,8,2025-03-23,Vegetarian,Lunch,Holmes-Schaefer,Jordanborough
+2,Soup,22,2025-03-24,Non-Vegetarian,Dinner,Aguilar Group,West James
+75,Bread,35,2025-03-24,Vegetarian,Dinner,Hunt-Lee,Davidborough
+105,Rice,2,2025-03-24,Non-Vegetarian,Breakfast,Hawkins-Novak,Phillipsmouth
+218,Fish,38,2025-03-24,Vegan,Snacks,"Wagner, Cole and Thompson",North Brooke
+255,Dairy,44,2025-03-24,Non-Vegetarian,Lunch,"Smith, Lynch and Anderson",South Bryan
+264,Bread,49,2025-03-24,Vegetarian,Dinner,Nelson-White,North Douglasfurt
+301,Rice,35,2025-03-24,Vegan,Breakfast,Gentry and Sons,New Tiffanystad
+337,Vegetables,5,2025-03-24,Vegan,Snacks,"Smith, Glover and Mcintyre",East Laurashire
+347,Chicken,45,2025-03-24,Vegetarian,Breakfast,Clark-Taylor,Jonathanstad
+354,Pasta,3,2025-03-24,Vegan,Lunch,Nelson PLC,Lake Christophermouth
+366,Chicken,25,2025-03-24,Non-Vegetarian,Lunch,"Edwards, Johnson and Cross",South Jeffreyburgh
+409,Chicken,46,2025-03-24,Vegetarian,Dinner,Wilson Group,Medinatown
+490,Salad,3,2025-03-24,Non-Vegetarian,Snacks,Daniels-Kim,East Angela
+501,Chicken,27,2025-03-24,Vegetarian,Lunch,"Flores, Jackson and Ford",South Robert
+514,Salad,20,2025-03-24,Vegetarian,Snacks,Johnson-Brown,Sheenashire
+546,Pasta,33,2025-03-24,Vegan,Snacks,Mcdaniel-Morales,Moseshaven
+576,Salad,35,2025-03-24,Non-Vegetarian,Lunch,Simmons-Davis,Basstown
+678,Pasta,8,2025-03-24,Vegetarian,Snacks,Turner-Ramirez,South Nicholasville
+679,Bread,24,2025-03-24,Non-Vegetarian,Snacks,Hawkins-Novak,Phillipsmouth
+693,Chicken,6,2025-03-24,Vegetarian,Dinner,Daniels-Kim,East Angela
+736,Fruits,33,2025-03-24,Non-Vegetarian,Snacks,Rogers-Maldonado,Mortonfort
+740,Salad,6,2025-03-24,Vegetarian,Lunch,Graham and Sons,Connieside
+753,Fruits,19,2025-03-24,Vegetarian,Breakfast,Wilson-Ortiz,Port Jeffrey
+761,Dairy,46,2025-03-24,Vegetarian,Snacks,Williams Ltd,Mooremouth
+776,Chicken,33,2025-03-24,Vegetarian,Dinner,"Davis, Sanchez and Hernandez",Johnsonside
+793,Fruits,5,2025-03-24,Vegan,Snacks,Howard-Williams,Lopezport
+843,Fruits,46,2025-03-24,Vegetarian,Dinner,"Bowers, Gonzalez and Simmons",Snyderton
+923,Fruits,42,2025-03-24,Vegan,Snacks,Campbell LLC,Perezport
+965,Dairy,44,2025-03-24,Vegetarian,Lunch,Aguilar Group,West James
+986,Rice,23,2025-03-24,Vegan,Snacks,Nguyen-Tran,Garciamouth
+68,Rice,15,2025-03-25,Vegetarian,Snacks,"Anderson, Nicholson and Bruce",East Elizabethberg
+112,Chicken,32,2025-03-25,Vegetarian,Lunch,Doyle LLC,Brittanyside
+123,Soup,11,2025-03-25,Vegetarian,Lunch,"Perry, Cabrera and Owens",Annahaven
+146,Chicken,17,2025-03-25,Vegan,Lunch,"Parker, Macdonald and Espinoza",Garciaside
+351,Bread,45,2025-03-25,Non-Vegetarian,Snacks,Ruiz-Oneal,Lake Travis
+372,Pasta,11,2025-03-25,Vegan,Snacks,"Jones, Rojas and Brown",North Sherrimouth
+376,Vegetables,47,2025-03-25,Vegan,Lunch,Kelly-Ware,Bentleyburgh
+377,Pasta,22,2025-03-25,Non-Vegetarian,Breakfast,"Ballard, Stanley and Hill",Port Andrea
+388,Soup,41,2025-03-25,Vegetarian,Dinner,"Petersen, Morrison and Woods",Johnsonborough
+491,Fruits,23,2025-03-25,Vegan,Lunch,Johnson-Ray,Port Connie
+569,Fish,20,2025-03-25,Vegan,Lunch,Sherman-Wolfe,North Elizabeth
+630,Bread,39,2025-03-25,Vegan,Snacks,"Lopez, Roach and Roach",Lake Regina
+653,Soup,50,2025-03-25,Non-Vegetarian,Breakfast,Nelson Ltd,New Thomasmouth
+656,Bread,26,2025-03-25,Vegetarian,Dinner,Meyer and Sons,Carolchester
+661,Bread,12,2025-03-25,Vegan,Dinner,Wright LLC,West Kevin
+702,Bread,6,2025-03-25,Vegan,Snacks,Stone LLC,West Samuelfurt
+750,Bread,17,2025-03-25,Non-Vegetarian,Breakfast,Cross and Sons,Petersonburgh
+830,Vegetables,3,2025-03-25,Vegetarian,Snacks,"Pollard, Collins and Watson",Williamsonmouth
+841,Chicken,15,2025-03-25,Vegan,Lunch,Johnson-Green,Darrylchester
+848,Dairy,32,2025-03-25,Non-Vegetarian,Dinner,Cook-Rodriguez,Taylorchester
+880,Soup,35,2025-03-25,Vegetarian,Lunch,Herrera LLC,Randallchester
+894,Pasta,43,2025-03-25,Vegetarian,Dinner,"Sullivan, Thornton and Peterson",Saraburgh
+966,Dairy,41,2025-03-25,Vegan,Snacks,Brown-Stephens,East Robert
+21,Rice,38,2025-03-26,Vegan,Dinner,Ramos and Sons,West Aliciabury
+204,Fish,11,2025-03-26,Non-Vegetarian,Lunch,"Marquez, Reid and Kramer",Weberfurt
+209,Fish,31,2025-03-26,Non-Vegetarian,Dinner,Wilson-Cook,Smithfort
+213,Fruits,20,2025-03-26,Non-Vegetarian,Snacks,Mosley-Hernandez,Tyronebury
+244,Soup,17,2025-03-26,Non-Vegetarian,Snacks,"Fisher, Hernandez and Webster",South Lisaberg
+286,Pasta,37,2025-03-26,Vegetarian,Snacks,"Martinez, Johnson and Torres",South Karen
+313,Fruits,3,2025-03-26,Vegetarian,Snacks,"Holland, Caldwell and Oliver",East Sandratown
+322,Chicken,12,2025-03-26,Non-Vegetarian,Dinner,Martinez and Sons,Johnport
+420,Soup,13,2025-03-26,Vegan,Breakfast,Miranda Ltd,Wheelermouth
+436,Pasta,6,2025-03-26,Vegan,Snacks,"Jackson, Gonzalez and Smith",New Rodneyville
+519,Pasta,43,2025-03-26,Non-Vegetarian,Lunch,Ortiz-Lee,Lake Christopherburgh
+542,Bread,7,2025-03-26,Vegetarian,Lunch,Perkins Ltd,North Chase
+658,Vegetables,4,2025-03-26,Non-Vegetarian,Dinner,Andrews Inc,Carrport
+758,Rice,4,2025-03-26,Non-Vegetarian,Dinner,Williams-Aguirre,North Lauren
+760,Dairy,28,2025-03-26,Non-Vegetarian,Dinner,Adams-Meyer,Mikaylachester
+789,Chicken,10,2025-03-26,Vegan,Snacks,Reynolds Group,New Connorfort
+850,Dairy,22,2025-03-26,Vegan,Breakfast,Shannon Ltd,Kentland
+859,Pasta,1,2025-03-26,Non-Vegetarian,Breakfast,"Davila, Green and Avila",Lake Amymouth
+927,Fruits,39,2025-03-26,Vegetarian,Snacks,"Lopez, Davis and Duncan",South Richardhaven
+26,Vegetables,34,2025-03-27,Vegan,Dinner,Orr Inc,Christinaland
+51,Dairy,14,2025-03-27,Vegetarian,Snacks,Campbell LLC,Torresshire
+159,Pasta,7,2025-03-27,Vegan,Lunch,"Perry, Perez and Carter",Cameronside
+185,Soup,19,2025-03-27,Non-Vegetarian,Lunch,"Jones, Ortega and Rubio",East Craig
+238,Vegetables,2,2025-03-27,Vegetarian,Breakfast,Chan Group,Sarahland
+259,Rice,44,2025-03-27,Non-Vegetarian,Snacks,Brown-Butler,Ashleyhaven
+280,Pasta,44,2025-03-27,Vegan,Dinner,Steele Ltd,Heatherview
+309,Chicken,47,2025-03-27,Vegan,Snacks,Jenkins-Brooks,Brendantown
+343,Bread,40,2025-03-27,Vegan,Snacks,Daniels-Kim,East Angela
+348,Fish,21,2025-03-27,Vegetarian,Lunch,"Pollard, Tyler and Davis",West Lauraborough
+362,Chicken,29,2025-03-27,Vegan,Snacks,Crane LLC,Lindseybury
+455,Pasta,17,2025-03-27,Vegan,Dinner,Mathews-Harrison,West Matthew
+468,Fruits,1,2025-03-27,Vegetarian,Breakfast,Gonzales-Moore,Lake Anthonyport
+482,Salad,32,2025-03-27,Non-Vegetarian,Dinner,Morrison LLC,Blaketown
+497,Dairy,48,2025-03-27,Vegetarian,Dinner,Barry Group,South Kathryn
+511,Salad,25,2025-03-27,Vegan,Snacks,Hughes Ltd,Lake Michael
+530,Soup,32,2025-03-27,Vegetarian,Breakfast,Martin-Wright,Marcstad
+588,Dairy,31,2025-03-27,Non-Vegetarian,Breakfast,Barry Group,South Kathryn
+604,Pasta,47,2025-03-27,Vegan,Breakfast,Vega Ltd,Port Carrie
+659,Salad,4,2025-03-27,Non-Vegetarian,Dinner,"Peterson, Lee and Moore",Laurietown
+704,Chicken,43,2025-03-27,Non-Vegetarian,Lunch,"Hill, Davis and Stewart",Anneville
+779,Bread,43,2025-03-27,Vegan,Lunch,Johnston Ltd,Belindaville
+796,Pasta,8,2025-03-27,Vegetarian,Lunch,Jordan LLC,North Amanda
+803,Chicken,13,2025-03-27,Vegan,Snacks,Ramos Group,North William
+908,Rice,16,2025-03-27,Non-Vegetarian,Snacks,Carey-Ramos,East Edwinburgh
+914,Chicken,18,2025-03-27,Vegan,Dinner,Moore Group,Manningshire
+960,Fish,46,2025-03-27,Vegetarian,Snacks,"Hudson, Spence and Perez",New Calebberg
+978,Dairy,14,2025-03-27,Vegetarian,Snacks,"Mayer, Hawkins and Day",South Richard
+8,Rice,49,2025-03-28,Vegetarian,Lunch,"Harris, Perez and Willis",South Christopherborough
+12,Pasta,15,2025-03-28,Vegetarian,Lunch,"Jackson, Lee and Hodge",North Steven
+60,Pasta,49,2025-03-28,Non-Vegetarian,Breakfast,Wu LLC,Hawkinsmouth
+87,Salad,37,2025-03-28,Vegan,Breakfast,"Cooper, Smith and King",North Garybury
+99,Bread,8,2025-03-28,Non-Vegetarian,Dinner,"Moore, Perez and Young",Penabury
+118,Dairy,42,2025-03-28,Vegan,Lunch,Johnson-Mejia,Port Michael
+196,Fish,27,2025-03-28,Non-Vegetarian,Breakfast,Williams-Aguirre,North Lauren
+249,Salad,39,2025-03-28,Vegan,Breakfast,"Barnes, Castro and Curtis",Zimmermanville
+316,Salad,4,2025-03-28,Vegetarian,Dinner,"Anderson, Adams and Roberts",New Denise
+346,Chicken,16,2025-03-28,Vegan,Snacks,"Nielsen, Johnson and Fuller",East Sheena
+375,Vegetables,15,2025-03-28,Vegan,Dinner,Booker Ltd,South Russelltown
+430,Dairy,33,2025-03-28,Vegan,Snacks,Jefferson Group,East Michelle
+567,Bread,3,2025-03-28,Vegetarian,Breakfast,Sherman-Baker,New Joel
+591,Fruits,19,2025-03-28,Vegetarian,Breakfast,Smith-Turner,New John
+691,Rice,21,2025-03-28,Vegan,Dinner,Fletcher Inc,Lake Raymondton
+718,Vegetables,45,2025-03-28,Non-Vegetarian,Dinner,Black Group,North Joseph
+768,Soup,39,2025-03-28,Non-Vegetarian,Snacks,Turner-Woods,Bradleyport
+817,Rice,23,2025-03-28,Vegetarian,Snacks,Henry-Terry,East Brittanyland
+884,Chicken,27,2025-03-28,Vegetarian,Lunch,"Montgomery, Dominguez and Hopkins",Solisburgh
+993,Soup,8,2025-03-28,Vegetarian,Lunch,"Bishop, Martinez and Robinson",Port Daniellechester
+130,Vegetables,47,2025-03-29,Vegan,Breakfast,Garza-Williams,East Rossside
+142,Soup,41,2025-03-29,Vegetarian,Snacks,Smith-Villegas,North Lindseychester
+145,Rice,12,2025-03-29,Vegan,Lunch,"Bryant, Jacobson and West",East Richardside
+184,Salad,7,2025-03-29,Vegetarian,Dinner,Wilson-Ortiz,Port Jeffrey
+201,Soup,35,2025-03-29,Vegetarian,Dinner,Holloway-Koch,Jamesport
+231,Rice,33,2025-03-29,Non-Vegetarian,Breakfast,Wheeler-Galvan,North Mary
+268,Fish,21,2025-03-29,Non-Vegetarian,Breakfast,Baker-Mcdonald,East Andrea
+270,Pasta,29,2025-03-29,Vegan,Lunch,Ramirez LLC,Sandrastad
+274,Salad,37,2025-03-29,Vegan,Snacks,"Davis, Hughes and Leblanc",South Danielle
+276,Fruits,47,2025-03-29,Vegan,Breakfast,"Roth, Estrada and Vang",Port Erin
+339,Pasta,40,2025-03-29,Non-Vegetarian,Dinner,Taylor-Lyons,Port Timothystad
+402,Fish,11,2025-03-29,Non-Vegetarian,Lunch,"Olson, Johnson and Figueroa",Lake Benjamin
+503,Rice,40,2025-03-29,Non-Vegetarian,Snacks,"Rogers, Robbins and Cook",Lake Kendramouth
+506,Fruits,37,2025-03-29,Non-Vegetarian,Snacks,Thomas-Flores,West Brandon
+535,Fish,24,2025-03-29,Vegan,Snacks,"Williams, Simpson and Waters",Salinasville
+541,Vegetables,12,2025-03-29,Vegan,Dinner,"Doyle, Clark and Campbell",East Deborah
+578,Salad,27,2025-03-29,Vegan,Snacks,Sanchez-Fisher,West Corey
+642,Chicken,38,2025-03-29,Non-Vegetarian,Dinner,"Bray, Nguyen and Christensen",West Robert
+809,Dairy,48,2025-03-29,Vegan,Breakfast,Lopez-Duffy,Mooneybury
+835,Vegetables,17,2025-03-29,Vegetarian,Lunch,Butler-Richardson,East Heatherport
+838,Bread,38,2025-03-29,Vegetarian,Lunch,Schneider-Suarez,East Melissa
+872,Vegetables,50,2025-03-29,Vegetarian,Snacks,Shepherd and Sons,Pamelaberg
+878,Rice,23,2025-03-29,Non-Vegetarian,Snacks,Miller Ltd,West Dawn
+899,Pasta,44,2025-03-29,Vegetarian,Snacks,Coleman-Farley,Valentineside
+948,Fruits,50,2025-03-29,Vegan,Breakfast,Glass Inc,Kylehaven
+953,Soup,2,2025-03-29,Vegetarian,Breakfast,Ayers-Lewis,East Christophertown
+987,Dairy,6,2025-03-29,Vegetarian,Dinner,Smith PLC,East Aaron
+994,Salad,17,2025-03-29,Non-Vegetarian,Snacks,Phelps-Schmidt,New Amanda
+14,Bread,19,2025-03-30,Vegetarian,Dinner,Chan Group,Sarahland
+24,Bread,20,2025-03-30,Non-Vegetarian,Lunch,Stephens-Braun,Villastad
+103,Bread,35,2025-03-30,Non-Vegetarian,Snacks,Lambert Ltd,South Jerryside
+121,Vegetables,16,2025-03-30,Non-Vegetarian,Dinner,Wright-Mcclure,Rodriguezfurt
+127,Rice,48,2025-03-30,Vegan,Snacks,Manning Ltd,Josephburgh
+147,Vegetables,47,2025-03-30,Non-Vegetarian,Breakfast,"Hopkins, Mora and Green",North Katelynland
+158,Bread,22,2025-03-30,Vegetarian,Breakfast,Mcdonald-Howell,North James
+176,Fish,19,2025-03-30,Non-Vegetarian,Snacks,Johnson Group,Williamsfort
+247,Fish,17,2025-03-30,Non-Vegetarian,Lunch,Wong-Reese,East Andrewland
+263,Salad,21,2025-03-30,Vegetarian,Breakfast,Thompson-Ortiz,Riceshire
+267,Soup,6,2025-03-30,Non-Vegetarian,Dinner,"Pollard, Tyler and Davis",West Lauraborough
+283,Dairy,7,2025-03-30,Non-Vegetarian,Breakfast,Garcia-Hunter,North Ianbury
+305,Soup,14,2025-03-30,Non-Vegetarian,Breakfast,Lawrence LLC,Perkinsbury
+341,Vegetables,48,2025-03-30,Non-Vegetarian,Dinner,Martinez-Young,East Phillipton
+411,Soup,39,2025-03-30,Non-Vegetarian,Breakfast,"Hanson, Wilkerson and Lee",Port Peter
+423,Fish,6,2025-03-30,Vegan,Breakfast,Perkins Ltd,North Chase
+466,Rice,6,2025-03-30,Vegetarian,Dinner,Bennett Inc,Lake Nathan
+471,Pasta,15,2025-03-30,Vegetarian,Lunch,Rodriguez LLC,East Williamshire
+473,Chicken,19,2025-03-30,Vegetarian,Breakfast,Baird PLC,Markport
+584,Salad,16,2025-03-30,Non-Vegetarian,Snacks,Adams-Young,Richchester
+631,Pasta,49,2025-03-30,Non-Vegetarian,Dinner,"Snyder, Caldwell and Campbell",Muellermouth
+649,Dairy,8,2025-03-30,Vegetarian,Lunch,Stone LLC,West Samuelfurt
+729,Rice,42,2025-03-30,Vegan,Lunch,Gonzales-Keith,Sharonton
+742,Dairy,3,2025-03-30,Vegetarian,Breakfast,Bates-Johnson,Millerview
+754,Dairy,37,2025-03-30,Non-Vegetarian,Dinner,"Wilson, Harris and Mayo",Port David
+770,Dairy,30,2025-03-30,Non-Vegetarian,Lunch,Schneider-Suarez,East Melissa
+936,Chicken,32,2025-03-30,Non-Vegetarian,Breakfast,"Cruz, Lee and Fernandez",Martinville
+942,Rice,44,2025-03-30,Vegan,Dinner,Miller Inc,New Leslieport
+956,Chicken,39,2025-03-30,Vegan,Snacks,Trevino Ltd,Heathermouth
+996,Fish,15,2025-03-30,Vegan,Breakfast,"Wilson, Watkins and Moore",Phillipsfort

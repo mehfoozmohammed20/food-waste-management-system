@@ -1,0 +1,5 @@
+Provider_Type,Total_Claims,Completed,Cancelled,Pending
+Restaurant,257,89.0,88.0,80.0
+Supermarket,252,82.0,78.0,92.0
+Grocery Store,247,88.0,84.0,75.0
+Catering Service,244,80.0,86.0,78.0
