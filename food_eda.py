@@ -217,3 +217,49 @@ plt.tight_layout()
 save(fig, "C4_daily_claims_trend")
 
 print("All 16 charts regenerated with shaded bars + white text.")
+
+# ── ADDITIONAL DEMAND & WASTAGE CHARTS (closes business-question gaps) ──────
+print("\nGenerating 3 additional demand and wastage charts...")
+
+# D1 - Top 10 cities by claim demand
+recv_claims = claims.merge(receivers[['Receiver_ID','City']], on='Receiver_ID')
+city_demand = recv_claims['City'].value_counts().head(10)
+fig, ax = plt.subplots(figsize=(8.5,4.5)); style_ax(ax)
+shades = shades_of("#fb923c", len(city_demand), light_to_dark=False)
+bars = ax.bar(city_demand.index, city_demand.values, color=shades, edgecolor=BG, linewidth=1.5, width=0.6)
+for b in bars: ax.text(b.get_x()+b.get_width()/2, b.get_height()+0.05, str(int(b.get_height())), ha='center', color='white', fontsize=9, fontweight='bold')
+ax.set_ylabel("Total Claims")
+plt.xticks(rotation=30, ha='right')
+plt.tight_layout()
+save(fig, "D1_top_cities_by_claim_demand")
+
+# D2 - Top 10 receivers by name (claims)
+recv_claims2 = claims.merge(receivers[['Receiver_ID','Name']], on='Receiver_ID')
+top_recv_names = recv_claims2.groupby('Name')['Claim_ID'].count().sort_values(ascending=False).head(10)
+fig, ax = plt.subplots(figsize=(8.5,4.5)); style_ax(ax)
+shades = shades_of("#a78bfa", len(top_recv_names), light_to_dark=False)[::-1]
+bars = ax.barh(top_recv_names.index[::-1], top_recv_names.values[::-1], color=shades[::-1], edgecolor=BG, height=0.6)
+for b in bars: ax.text(b.get_width()+0.05, b.get_y()+b.get_height()/2, str(int(b.get_width())), va='center', color='white', fontsize=9, fontweight='bold')
+ax.set_xlabel("Total Claims")
+plt.tight_layout()
+save(fig, "D2_top_receivers_by_name")
+
+# D3 - Meal type wastage rate (unclaimed %) - answers "which meal wasted most"
+food_claimed = food.copy()
+food_claimed['Is_Claimed'] = food_claimed['Food_ID'].isin(claims['Food_ID'])
+meal_waste = food_claimed.groupby('Meal_Type').agg(
+    Total=('Food_ID','count'),
+    Unclaimed=('Is_Claimed', lambda x: (~x).sum())
+)
+meal_waste['Waste_Pct'] = round(meal_waste['Unclaimed']/meal_waste['Total']*100,1)
+meal_waste = meal_waste.sort_values('Waste_Pct', ascending=False)
+
+fig, ax = plt.subplots(figsize=(7,4.3)); style_ax(ax)
+bars = ax.bar(meal_waste.index, meal_waste['Waste_Pct'], color=COLORS[:len(meal_waste)], edgecolor=BG, linewidth=1.5, width=0.6)
+for b in bars: ax.text(b.get_x()+b.get_width()/2, b.get_height()+0.5, f"{b.get_height()}%", ha='center', color='white', fontsize=10, fontweight='bold')
+ax.set_ylabel("Unclaimed Rate (%)")
+plt.tight_layout()
+save(fig, "D3_meal_type_wastage_rate")
+
+print("All 3 additional charts generated.")
+print("\nTotal charts: 19 (16 original + 3 new)")

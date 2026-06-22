@@ -274,12 +274,14 @@ if page == "Overview":
 
     st.markdown('<hr class="fancy-divider">', unsafe_allow_html=True)
 
-    st.markdown('<div class="sec-header">Dashboard Filters</div>', unsafe_allow_html=True)
-    fc1, fc2, fc3, fc4 = st.columns(4)
-    with fc1: sel_cities    = st.multiselect("City", sorted(food['Location'].dropna().unique()))
-    with fc2: sel_providers = st.multiselect("Provider Type", sorted(food['Provider_Type'].dropna().unique()))
-    with fc3: sel_meal      = st.multiselect("Meal Type", sorted(food['Meal_Type'].dropna().unique()))
-    with fc4: sel_food_type = st.multiselect("Food Type", sorted(food['Food_Type'].dropna().unique()))
+    # Filter values are read from session_state so charts above can use them,
+    # while the actual filter widgets are rendered visually later, just above
+    # "Filtered Food Listings" (Streamlit reruns the script on every interaction,
+    # so this keeps filters fully functional while appearing lower on the page).
+    sel_cities    = st.session_state.get("ov_city", [])
+    sel_providers = st.session_state.get("ov_ptype", [])
+    sel_meal      = st.session_state.get("ov_meal", [])
+    sel_food_type = st.session_state.get("ov_ftype", [])
 
     filtered_food = food.copy()
     if sel_cities:      filtered_food = filtered_food[filtered_food['Location'].isin(sel_cities)]
@@ -287,8 +289,6 @@ if page == "Overview":
     if sel_meal:        filtered_food = filtered_food[filtered_food['Meal_Type'].isin(sel_meal)]
     if sel_food_type:   filtered_food = filtered_food[filtered_food['Food_Type'].isin(sel_food_type)]
     filtered_claims = claims[claims['Food_ID'].isin(filtered_food['Food_ID'])]
-
-    st.markdown('<hr class="fancy-divider">', unsafe_allow_html=True)
 
     st.markdown('<div class="sec-header">Food Quantity by Provider Type</div>', unsafe_allow_html=True)
     pt = filtered_food.groupby('Provider_Type')['Quantity'].sum().sort_values(ascending=False)
@@ -356,6 +356,15 @@ if page == "Overview":
             st.markdown(f'<div class="stat-pill-label">Pending</div><div class="stat-pill-value" style="color:#a78bfa;">{pend_pct}%</div><div class="prog-wrap"><div class="prog-fill" style="width:{pend_pct}%;background:linear-gradient(90deg,#a78bfa,#7c3aed);"></div></div>', unsafe_allow_html=True)
     else:
         st.info("No claims match the current filter selection.")
+
+    st.markdown('<hr class="fancy-divider">', unsafe_allow_html=True)
+
+    st.markdown('<div class="sec-header">Dashboard Filters</div>', unsafe_allow_html=True)
+    fc1, fc2, fc3, fc4 = st.columns(4)
+    with fc1: st.multiselect("City", sorted(food['Location'].dropna().unique()), key="ov_city")
+    with fc2: st.multiselect("Provider Type", sorted(food['Provider_Type'].dropna().unique()), key="ov_ptype")
+    with fc3: st.multiselect("Meal Type", sorted(food['Meal_Type'].dropna().unique()), key="ov_meal")
+    with fc4: st.multiselect("Food Type", sorted(food['Food_Type'].dropna().unique()), key="ov_ftype")
 
     st.markdown('<hr class="fancy-divider">', unsafe_allow_html=True)
     st.markdown('<div class="sec-header">Filtered Food Listings</div>', unsafe_allow_html=True)
@@ -466,6 +475,14 @@ elif page == "Visualizations":
              "These providers see the most receiver interest in their listings, meaning their food gets used effectively rather than wasted. Studying what makes their listings attractive — location, quantity per listing, timing — could help less successful providers improve their own claim rates."),
             ("C4_daily_claims_trend",          "Daily Claims Trend", 70,
              "Claim activity shows clear peaks and dips across the observed weeks rather than staying flat. This kind of weekly rhythm — likely tied to weekends or specific days when receivers are more available — can be used to time reminder notifications or promotional pushes for maximum effect."),
+        ],
+        "Demand & Wastage Analysis": [
+            ("D1_top_cities_by_claim_demand",  "Top 10 Cities by Claim Demand", 65,
+             "These cities show the highest receiver demand based on number of claims made. Comparing this list against the top cities by food supply reveals whether supply and demand are geographically aligned or mismatched — and in this dataset, the top demand cities do not overlap with the top supply cities, pointing to a clear geographic gap."),
+            ("D2_top_receivers_by_name",       "Top 10 Receivers by Name", 65,
+             "These individual receivers have made the most claims overall. A small group of highly active receivers consistently account for a disproportionate share of total claim volume, making them the most valuable individual relationships in the receiver network."),
+            ("D3_meal_type_wastage_rate",      "Unclaimed Rate by Meal Type", 60,
+             "This measures the percentage of listings per meal type that were never claimed by anyone, which is a more accurate measure of true wastage than total quantity donated alone. Snacks has both the highest quantity donated and the highest unclaimed rate, making it the clearest priority for demand-side improvement."),
         ],
     }
 
